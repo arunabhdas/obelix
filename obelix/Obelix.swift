@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Obelix.swift
 //  obelix
 //
 //  Copyright © 2016 arunabhdas. All rights reserved.
@@ -7,5 +7,8 @@
 
 import Foundation
 
-let obelix = Obelix()
-obelix.staticMode()
+class Obelix {
+    func staticMode() {
+        ConsoleIO.printUsage()
+    }
+}

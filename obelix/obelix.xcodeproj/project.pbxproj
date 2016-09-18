@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		DC528A801D8F3E0300ADFB41 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC528A7F1D8F3E0300ADFB41 /* main.swift */; };
+		DC528A871D8F402900ADFB41 /* ConsoleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC528A861D8F402900ADFB41 /* ConsoleIO.swift */; };
+		DC528A891D8F41E000ADFB41 /* Obelix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC528A881D8F41E000ADFB41 /* Obelix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		DC528A7C1D8F3E0300ADFB41 /* obelix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = obelix; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC528A7F1D8F3E0300ADFB41 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DC528A861D8F402900ADFB41 /* ConsoleIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleIO.swift; sourceTree = "<group>"; };
+		DC528A881D8F41E000ADFB41 /* Obelix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Obelix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,8 @@
 		DC528A731D8F3E0300ADFB41 = {
 			isa = PBXGroup;
 			children = (
+				DC528A881D8F41E000ADFB41 /* Obelix.swift */,
+				DC528A861D8F402900ADFB41 /* ConsoleIO.swift */,
 				DC528A7E1D8F3E0300ADFB41 /* obelix */,
 				DC528A7D1D8F3E0300ADFB41 /* Products */,
 			);
@@ -119,7 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC528A891D8F41E000ADFB41 /* Obelix.swift in Sources */,
 				DC528A801D8F3E0300ADFB41 /* main.swift in Sources */,
+				DC528A871D8F402900ADFB41 /* ConsoleIO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
