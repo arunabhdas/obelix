@@ -9,7 +9,7 @@ import Foundation
 
 class ConsoleIO {
     class func printUsage() {
-        let executableName = (Process.arguments[0] as NSString).lastPathComponent
+        let executableName = (CommandLine.arguments[0] as NSString).lastPathComponent
         
         print("usage:")
         print("\(executableName) -a string1 string2")
